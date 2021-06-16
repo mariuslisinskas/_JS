@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- pavyzdys -->
+    <a href="https://www.vz.lt/">Linkas</a>
+
+    <button id="vz">VZ</button>
+    <button id="cv">CV</button>
+
+    <!-- 1. uzduotis padaryti slaideri su 3 nuotraukom -->
+<div style="width: 300px; height: 300px; display: flex; justify-content: center; align-items: center;">
+    <img src="" alt="" srcset="" style="width: 100%; height: auto;">
+</div>
+<div>
+    <button id="t1">Tractor 1</button>
+    <button id="t2">Tractor 2</button>
+    <button id="t3">Tractor 3</button>
+</div>
+    <!-- 2. Kitaip sprendimas su paveiksleliais html -->
+    <div class="buttons">
+        <button id="t1">Tractor 1</button>
+        <button id="t2">Tractor 2</button>
+        <button id="t3">Tractor 3</button>
+    </div>
+    
+    <div>
+        <img 
+        data-t1='./tractor1.jpg'
+        data-t2='./tractor1.jpg'
+        data-t3='./tractor3.jpg'
+        style="width: 200px; height: 300px;" src="./tractor1.jpg">
+
+    </div>
+    <!-- 3. INPUTAI TEXT------------------ -->
+
+    <input type="text" name="labas">
+
+    <select name="selis">
+        <option value="t0" disabled selected>---</option>
+        <option value="t1">Labas 1</option>
+        <option value="t2">Labas 2</option>
+        <option value="t3">Labas 3</option>
+    </select>
+    <select name="selis2">
+        <option value="0" disabled selected>---</option>
+        <option value="./tractor1.jpg">Labas 1</option>
+        <option value="./tractor1.jpg">Labas 2</option>
+        <option value="./tractor3.jpg">Labas 3</option>
+    </select>
+
+
+    <!-- INNER HTML INNER TEXT paspaudio Do tada textas tampa h1 dalimi-->
+
+
+    <h1 style="color: blue; margin: 30px;"></h1>
+
+    <input type="text" name="h1">
+    
+    <button id="h1">Do</button>
+
+
+    <button id="h2">Do Do Do</button> 
+
+<!-- UZDUOTIS selektas is triju pasirinkimu, kiekvienas is ju iraso pasveikinima i h1 tada -->
+
+
+<select name="selektas">
+    <option value="0" disabled selected>---</option>
+    <option value="s1">Labas Rytas</option>
+    <option value="s2">Laba Diena</option>
+    <option value="s3">Labas Vakaras</option>
+</select>
+
+
+
+
+
+</body>
+</html>

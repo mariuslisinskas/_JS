@@ -120,3 +120,25 @@ document.querySelectorAll('.new').forEach(animal => {
     })
 });
 //rasome rasome
+
+
+//3c uzduotis
+// const u3c = document.querySelector('.prices');
+
+
+
+// const backgroundGray = el => {
+
+//     if (el.target.style.backgroundColor === '' || el.target.style.backgroundColor === 'white'){
+
+//         el.target.style.backgroundColor = 'gray';
+
+//     }
+
+//     else {el.target.style.backgroundColor = 'white'};
+
+// }
+
+
+
+// u3c.addEventListener('click', backgroundGray);
