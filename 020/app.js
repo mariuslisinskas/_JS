@@ -85,15 +85,21 @@ h2Do.addEventListener('click', () => {
 
 //selektas is triju pasirinkimu, kiekvienas is ju iraso pasveikinima i h1 tada
 
-const h1sel = document.querySelector('h1');
-const h1op = document.querySelector('[name=selektas]');
-const input = h1op.querySelectorAll('option.value');
+// const h1sel = document.querySelector('h1');
+// const h1op = document.querySelector('[name=selektas]');
+// const input = h1op.querySelectorAll('option');
 
-h1op.addEventListener('input', () =>{
-    
-    const text = input;
-    h1sel.innerText = text;
-})
+const bc = document.querySelector('[name=uzd]');
+console.log('bc');
+// .addEventListener('click', () => {
+        
+//         console.log(b.value);
+//     });
+
+// h1op.addEventListener('input', () => {
+//     const text = h1op;
+//     h1sel.innerText = text;
+// });
 
 
 
